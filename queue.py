@@ -4,7 +4,7 @@ class Queue(object):
 
     def dequeue(self):
         if len(self.queue) < 1:
-            return False
+            return None
         self.queue.pop(0)
 
     def enqueue(self, item):
